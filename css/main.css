@@ -1,10 +1,28 @@
 /*首页body样式*/
 .bg {
     background: url(../img/bg_big.png) no-repeat top scroll;
-    background-size: 100%;
+    /*background-size: 100%;*/
     /*width: 100%;*/
-    min-height: 160vh;
+    /*min-height: 160vh;*/
+    /*background-size: cover;*/
     color:#fff;
+    background-size:1440px;
+    background-color: #000000;
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*!*font-family: sans-serif;*!*/
+    /*background: url(../img/bg_big.png)  no-repeat top scroll;*/
+    /*background-size: cover;*/
+
+    /*background-position: center 0;*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-ms-background-size: cover;*/
+
+
 }
 
 @media (max-width: 1920px) {
@@ -85,7 +103,7 @@
 .title.jsx-377696694 span.jsx-377696694 {
     width: 32px;
     height: 32px;
-    background: url('/static/images/index/video.png');
+
     background-size: cover;
     display: inline-block;
     margin-right: 10px;
@@ -137,7 +155,7 @@
     right: 15px;
     width: 30px;
     height: 30px;
-    background-image: url(../static/images/resources/close.png);
+
     background-size: 100% 100%;
     cursor: pointer;
     z-index: -1;
@@ -299,7 +317,7 @@ iframe.jsx-377696694, .iframebox.jsx-377696694 {
     margin: 0 auto;
     width: 775px;
     height: 120px;
-    background-image: url('../static/images/en/banner-title.png');
+
     opacity: 0;
 }
 
@@ -362,41 +380,7 @@ iframe.jsx-377696694, .iframebox.jsx-377696694 {
     color: #ffffff;
 }
 
-.banner-en-bg2.jsx-1860214240 {
-    background-image: url(/static/images/en/banner2.jpg);
-}
 
-.banner-en-bg3.jsx-1860214240 {
-    background-image: url(/static/images/en/banner3.jpg);
-}
-
-.banner-en-bg4.jsx-1860214240 {
-    background-image: url(/static/images/en/banner4.jpg);
-}
-
-.banner-en-bg5.jsx-1860214240 {
-    background-image: url(/static/images/en/banner5.jpg);
-}
-
-.banner-en-bg6.jsx-1860214240 {
-    background-image: url(/static/images/en/banner6.jpg);
-}
-
-.banner-zh-bg2.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner2.jpg);
-}
-
-.banner-zh-bg3.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner3.jpg);
-}
-
-.banner-zh-bg4.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner4.jpg);
-}
-
-.banner-zh-bg5.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner5.jpg);
-}
 
 .banner-logo.jsx-1860214240 {
     position: relative;
@@ -540,41 +524,7 @@ iframe.jsx-377696694, .iframebox.jsx-377696694 {
     height: 780px;
 }
 
-.banner-en-bg2.jsx-1860214240 {
-    background-image: url(/static/images/en/banner2.jpg);
-}
 
-.banner-en-bg3.jsx-1860214240 {
-    background-image: url(/static/images/en/banner3.jpg);
-}
-
-.banner-en-bg4.jsx-1860214240 {
-    background-image: url(/static/images/en/banner4.jpg);
-}
-
-.banner-en-bg5.jsx-1860214240 {
-    background-image: url(/static/images/en/banner5.jpg);
-}
-
-.banner-en-bg6.jsx-1860214240 {
-    background-image: url(/static/images/en/banner6.jpg);
-}
-
-.banner-zh-bg2.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner2.jpg);
-}
-
-.banner-zh-bg3.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner3.jpg);
-}
-
-.banner-zh-bg4.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner4.jpg);
-}
-
-.banner-zh-bg5.jsx-1860214240 {
-    background-image: url(/static/images/zh/banner5.jpg);
-}
 
 .count-time-text.jsx-1860214240:first-child {
     padding-right: 40px;
@@ -671,9 +621,7 @@ iframe.jsx-377696694, .iframebox.jsx-377696694 {
 }
 
 @media (max-width: 750px) {
-    .banner-en-bg1.jsx-1860214240 {
-        background-image: url(/static/images/en/banner1.jpg);
-    }
+
 
     .banner.jsx-1860214240 {
         margin-top: 50px;
@@ -722,7 +670,7 @@ iframe.jsx-377696694, .iframebox.jsx-377696694 {
     .count-time.jsx-1860214240 div.jsx-1860214240 {
         width: 30px;
         height: 26px;
-        background: url(/static/images/en/banner-time.png);
+
         background-size: 100% 100%;
         font-size: 16px;
         color: #fff;
@@ -980,7 +928,7 @@ a:focus {
 }
 
 .mobilenav a {
-    background: url(/static/images/logo-index.png) no-repeat;
+
     background-size: auto 100%;
     width: 30%;
     height: 100%;
@@ -1187,9 +1135,7 @@ a:focus {
     cursor: pointer;
 }
 
-.section-header .login-box select:hover {
-    background: url("/static/images/header-select-active.png") no-repeat scroll right center transparent;
-}
+
 
 .header-center ul li > a:hover .text-active-box:before {
     -webkit-transform: translate3d(104%, 0, 0);
@@ -1312,19 +1258,20 @@ a:focus {
     width: 100%;
     height: 32px;
     margin-top: 70px;
-    background: url(/static/images/bg-title.png) no-repeat;
+    background: url(../img/bg-title.png) no-repeat;
 }
 
 .tech-box.jsx-4077136523 h2.jsx-4077136523 {
     font-size: 22px;
     margin-top: -8px;
+    color:#ffffff;
 }
 
 .tech-box.jsx-4077136523 p.jsx-4077136523 {
     margin: 20px auto 0;
     line-height: 28px;
-    color: #666;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 12px;
     font-weight: 200;
 }
 
@@ -1358,7 +1305,7 @@ a:focus {
         padding: 0 20px;
         margin: 40px auto 0;
         line-height: 24px;
-        color: #818181;
+        color: #ffffff;
         font-size: 12px;
     }
 }
@@ -1584,7 +1531,7 @@ a:focus {
     margin-top: 62px;
     font-size: 24px;
     line-height: 36px;
-    color: #666;
+    color: #ffffff;
     font-weight: 300;
     width: 600px;
 }
@@ -1605,7 +1552,7 @@ a:focus {
 .line-box.jsx-2568835531 i.jsx-2568835531 {
     display: block;
     font-size: 20px;
-    color: #818181;
+    color: #ffffff;
     line-height: 22px;
     margin-left: 22px;
 }
@@ -1726,7 +1673,7 @@ a:focus {
         margin: 10px auto;
         font-size: 14px;
         line-height: 24px;
-        color: #818181;
+        color: #ffffff;
         width: 100%;
     }
 
@@ -1743,7 +1690,7 @@ a:focus {
     .line-box.jsx-2568835531 i.jsx-2568835531 {
         display: block;
         font-size: 12px;
-        color: #818181;
+        color: #ffffff;
         line-height: 22px;
         margin-left: 4px;
     }
@@ -1924,7 +1871,7 @@ a:focus {
     width: 100%;
     height: 66px;
     line-height: 74px;
-    background: url(/static/images/bg-title.png) no-repeat;
+
     background-size: 100% 110%;
     font-size: 30px;
     padding: 0 24px;
@@ -1954,7 +1901,7 @@ a:focus {
 .nodes-header.jsx-3423808126 i.jsx-3423808126 {
     width: 42px;
     height: 22px;
-    background: url(/static/images/nodes-show1.png) no-repeat;
+
     background-size: 100% 100%;
     display: block;
     margin-top: 24px;
@@ -2006,7 +1953,7 @@ a:focus {
     height: 60px;
     margin-top: 25px;
     margin-left: 20px;
-    background-image: url(/static/images/footer-icon1.png);
+
     background-position: -33px -1055px;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -2513,7 +2460,7 @@ a:focus {
 .footer-info-wrap.jsx-1463652168 {
     box-sizing: border-box;
     padding: 60px 0 52px 0;
-    background: url(./static/images/footer/footer-bg.png) #0d0d0d;
+    b
     background-position: center center;
     background-size: auto 100%;
     font-size: 18px;
@@ -2630,7 +2577,7 @@ a:focus {
     height: 20px;
     margin-right: 6px;
     float: left;
-    background: url(./static/images/footer/footer-ico.png) no-repeat;
+
 }
 
 .footer-info-email.jsx-1463652168 a.ico.feedback.jsx-1463652168:after {
@@ -2805,7 +2752,7 @@ a:focus {
 }
 
 .footer-box.jsx-1463652168 li.jsx-1463652168 > a.jsx-1463652168, .footer-box.jsx-1463652168 li.jsx-1463652168 > div.jsx-1463652168 {
-    background-image: url(/static/images/footer/grid.png);
+
     background-size: 116% 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -2906,12 +2853,12 @@ a:focus {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: url(/static/images/footer/line2.png);
+
     background-size: cover;
 }
 
 .tron-line.jsx-1463652168:hover {
-    background: url(/static/images/footer/line1.png);
+
     background-size: cover;
 }
 
@@ -2919,12 +2866,12 @@ a:focus {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: url(/static/images/footer/kakao2.png);
+
     background-size: cover;
 }
 
 .tron-kakao.jsx-1463652168:hover {
-    background: url(/static/images/footer/kakao1.png);
+
     background-size: cover;
 }
 
@@ -2932,12 +2879,12 @@ a:focus {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background: url(/static/images/footer/ww1.png);
+
     background-size: cover;
 }
 
 .tron-vk.jsx-1463652168:hover {
-    background: url(/static/images/footer/ww2.png);
+
     background-size: cover;
 }
 
@@ -2966,7 +2913,7 @@ a:focus {
     width: 30px;
     height: 30px;
     display: inline-block;
-    background: url(/static/images/footer-icon-faq.png) no-repeat;
+
     background-size: 100% 100%;
     margin-right: 8px;
 }
@@ -3056,7 +3003,7 @@ a:focus {
 }
 
 .group-icon.jsx-1463652168 li.jsx-1463652168:nth-child(9) > a.jsx-1463652168 {
-    background: url('/static/images/footer/icon.png') no-repeat center;
+    b
     background-position: -18px -778px;
 }
 
@@ -3073,17 +3020,17 @@ a:focus {
 }
 
 .group-icon.jsx-1463652168 li.jsx-1463652168:nth-child(13) a.jsx-1463652168 {
-    background: url('/static/images/footer/icon.png') no-repeat center;
+
     background-position: -18px -1158px;
 }
 
 .group-icon.jsx-1463652168 li.jsx-1463652168:nth-child(9) > a.jsx-1463652168:hover {
-    background: url('/static/images/footer/icon.png') no-repeat center;
+
     background-position: -113px -778px;
 }
 
 .group-icon.jsx-1463652168 li.jsx-1463652168:nth-child(13) a.jsx-1463652168:hover {
-    background: url('/static/images/footer/icon.png') no-repeat center;
+
     background-position: -113px -1158px;
 }
 
@@ -3404,7 +3351,7 @@ a:focus {
 .technical-intro.jsx-3634339946 {
     margin-top: 24px;
     font-size: 26px;
-    color: #666;
+    color: #ffffff;
     text-align: center;
     font-weight: 300;
 }
@@ -3500,7 +3447,7 @@ a:focus {
 }
 
 .trx-migration.jsx-3634339946 .auto.jsx-3634339946 .left.jsx-3634339946 .notice.jsx-3634339946 {
-    color: #666;
+    color: #ffffff;
     font-size: 24px;
     line-height: 36px;
     padding-top: 62px;
@@ -3538,7 +3485,7 @@ a:focus {
     -ms-flex-direction: column;
     flex-direction: column;
     font-size: 18px;
-    color: #666;
+    color: #ffffff;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
@@ -3595,7 +3542,7 @@ a:focus {
     -webkit-box-align: flex-start;
     -ms-flex-align: flex-start;
     align-items: flex-start;
-    color: #666;
+    color: #ffffff;
 }
 
 .tron-wallet.jsx-3634339946 .auto.jsx-3634339946 .left.jsx-3634339946 .teriminal.jsx-3634339946 .item.jsx-3634339946 img.jsx-3634339946 {
@@ -3625,7 +3572,7 @@ a:focus {
 .tron-wallet.jsx-3634339946 .auto.jsx-3634339946 .right.jsx-3634339946 {
     width: 600px;
     height: 400px;
-    background: url('/static/images/wallet/index-bg.png') no-repeat;
+
     background-size: 100% 100%;
 }
 
@@ -3640,7 +3587,7 @@ a:focus {
     width: 1360px;
     height: 650px;
     margin: 126px auto 0;
-    background: url(/static/images/nodes1.png) no-repeat;
+
     background-size: 100% 100%;
     position: relative;
 }
@@ -4106,7 +4053,7 @@ a:focus {
 .ni-tron.jsx-3634339946 {
     width: 100%;
     height: 720px;
-    background-image: url(../static/images/index/nitron_pc.jpg);
+
     background-size: auto 100%;
     background-position-x: center;
 }
@@ -4217,7 +4164,7 @@ a:focus {
         -ms-flex-direction: column;
         flex-direction: column;
         font-size: 18px;
-        color: #818181;
+        color: #ffffff;
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
@@ -4520,7 +4467,7 @@ a:focus {
     .ni-tron.jsx-3634339946 {
         width: 100%;
         height: 390px;
-        background-image: url(../static/images/index/nitron_mobile.jpg);
+
         background-size: 100% 100%;
     }
 }
@@ -4611,7 +4558,7 @@ a:focus {
     float: left;
     width: 38px;
     height: 40px;
-    background-image: url(../static/images/index/exchanges.png);
+
     background-size: cover;
 }
 
@@ -4625,7 +4572,7 @@ a:focus {
     float: left;
     width: 40px;
     height: 40px;
-    background-image: url(../static/images/index/donation.png);
+
     background-size: cover;
 }
 
@@ -4641,7 +4588,7 @@ a:focus {
     float: left;
     width: 30px;
     height: 18px;
-    background-image: url(../static/images/index/top.png);
+
     background-size: cover;
 }
 
@@ -4702,7 +4649,7 @@ li.jsx-4081479369 {
         position: absolute;
         height: 12px;
         width: 6px;
-        background: url(../static/images/index/sanjiao.png);
+
         right: 11px;
         top: 50%;
         margin-top: -6px;
